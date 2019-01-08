@@ -1,0 +1,35 @@
+{
+  "name": "mongoose-ssh",
+  "version": "0.1.0",
+  "description": "Mongoose through ssh-tunnel",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littledumb/mongoose-ssh"
+  },
+  "keywords": [
+    "mongoose",
+    "ssh tunnel"
+  ],
+  "author": "Jiamin Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littledumb/mongoose-ssh/issues"
+  },
+  "homepage": "https://github.com/littledumb/mongoose-ssh#readme",
+  "dependencies": {
+    "mongoose": "^5.4.2",
+    "tunnel-ssh": "^4.1.4"
+  },
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "space": true
+  }
+}
